@@ -1,0 +1,67 @@
+.header {
+  background-color: $dark-grey;
+  height: 4.5vh;
+  margin: 0 auto;
+  font-family: $font;
+  font-size: 1.5rem;
+  
+  .slanted {
+    background-color: $grey;
+    transform: skewX(-30deg);
+    height: 6vh;
+    display: inline-block;
+    position: relative;
+  }
+
+  .back-button {
+    float: left;
+    margin: 0;
+    width: 20vw;
+    left: -20px;
+    
+    img {
+      height: 2.5rem;
+      transform: skewX(30deg);
+      display: inline-block;
+      margin: 0 45px;
+      vertical-align: center;
+    }
+    
+    #forwardSlash {
+      width: 5px;
+      height: 4vh;
+      background-color: $medium-grey;
+      display: inline-block;
+      margin-top: 10px;
+      vertical-align: center;
+    }
+
+    #v2logo {
+      display: inline-block;
+      margin-left: 50px;
+      vertical-align: center;
+    }
+  }
+
+  .battle-label {
+    float: left;
+    width: 40vw;
+    margin-left: 5px;
+    z-index: 1;
+  }
+
+  .battle-inner-label {
+    width: 90%;
+    height: 65%;
+    margin: 10px auto;
+    background-color: white;
+    z-index: 5;
+
+    .textbox {
+      padding-top: 5px;
+      letter-spacing: 2px;
+      text-align: center;
+      transform: skewX(30deg);
+    }
+  }
+}

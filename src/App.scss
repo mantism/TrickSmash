@@ -1,0 +1,16 @@
+@import './styles/variables';
+@import './styles/header';
+@import './styles/characterSelect';
+@import './styles/footer';
+@import './styles/selectedCharacter';
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.App {
+  background-color: $black;
+  min-height: 100vh;
+}
